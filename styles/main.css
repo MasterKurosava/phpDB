@@ -1,0 +1,88 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+}
+.register{
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+.register input{
+  width: 350px;
+  height: 35px;
+  margin: 10px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  outline: 0;
+}
+.registerBtn{
+  cursor: pointer;
+  font-size: 16px;
+}
+.content{
+  width: 1200px;
+  height: fit-content;
+  margin: 0 auto;
+}
+.uploadBlock{
+  margin: 20px 0;
+}
+.uploadImgForm{
+  display: flex;
+  flex-direction: column;
+}
+.imgLoadBtn{
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+.gallery{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.photoBlock{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 50px 5px;
+  width: 550px;
+  margin: 10px 25px;
+}
+.photo, .photo img{
+  width: 100%;
+  height: 500px;
+}
+.comments{
+  margin: 30px 20px;
+  list-style: none;
+}
+.commentItem{
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.commentItem::before{
+  content: "~";
+}
+.commentForm{
+  margin: 20px;
+}
+.commentInput{
+  width: 70%;
+  height: 40px;
+  padding-left: 15px;
+  outline: none;
+}
+.commentSubmit{
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
